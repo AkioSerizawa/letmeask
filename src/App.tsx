@@ -1,7 +1,10 @@
+import Button from './components/Button'
 
 function App() {
   return (
-    <h1>Hello World!</h1>
+    <div>
+      <a href="" target="_blank"></a>
+    </div>
   );
 }
 
