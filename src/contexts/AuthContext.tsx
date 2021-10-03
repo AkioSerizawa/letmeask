@@ -8,10 +8,10 @@ type User = {
     avatar: string;
   }
   
-  type AuthContextType = {
+type AuthContextType = {
     user: User | undefined;
     signInWithGoogle: () => Promise<void>;
-  }
+}
 
 type AuthContextProviderProps = {
     children: ReactNode;
